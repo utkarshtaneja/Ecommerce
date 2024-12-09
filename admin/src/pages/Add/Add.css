@@ -1,0 +1,101 @@
+.add {
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+    font-size: 16px;
+}
+
+.add form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.add .add-img-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add .add-img-upload img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add .add-img-upload p {
+    font-size: 14px;
+    color: #444;
+}
+
+
+.add input, 
+.add textarea, 
+.add select {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #444;
+    outline: none;
+}
+
+.add input:focus, 
+.add textarea:focus, 
+.add select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.add-product-name,
+.add-product-description,
+.add-long-description,
+.add-color,
+.add-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: max(50%, 320px);
+}
+
+
+.add-category-price-stock {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.add-category,
+.add-price,
+.add-stock {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 150px;
+    width: 100%;
+}
+
+/* Button */
+.add-btn {
+    max-width: 150px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #333;
+}

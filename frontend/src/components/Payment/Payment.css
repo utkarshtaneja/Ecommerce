@@ -1,0 +1,99 @@
+.payment-form {
+  margin: 60px;
+}
+
+.payment-form__fields {
+  margin-bottom: 30px;
+}
+
+.payment-form__fields label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.StripeElement {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.payment-form__submit {
+  display: block;
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-form__submit:hover {
+  background-color: #45a049;
+}
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+}
+
+.popup-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.popup-content ul li {
+  margin: 5px 0;
+}
+
+.popup-content p {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.popup-close {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-close:hover {
+  background-color: #45a049;
+}
